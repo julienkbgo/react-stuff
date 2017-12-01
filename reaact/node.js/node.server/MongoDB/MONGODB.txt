@@ -1,0 +1,46 @@
+MongoDB
+
+mongo
+show dbs
+use school
+switched to db school
+show collections
+db
+show dbs
+db.people,insertOne({name:"Alice",age:37})
+use school 
+switched to db school 
+> show collections 
+people
+db.people.insertOne({name: "bob" , age:37}
+db.people.find()
+> ({name "emily" , age: 23})
+use school 
+> show collections
+movies
+people
+>db.movies.find().pretty()
+db.people.find() all in people
+db.movies.find (season:1,episode:3}).pretty() - shows a specific object
+
+db.movies.find ({season:1 ,episode:5}),{name:true._id;false}).pretty()-shows
+without showing id
+
+db.movies.find({season:1,number 4),(name:true. "image.medium"
+
+db.movies.find({season:{$gt:5}).pretty() -shows all episodes greater than season 5
+
+db.movies.deleteOne({season:1,number:3),($set: {name:"Lord button"})).
+delete one object 
+
+db.movies.updateOne({season:2 , number:3),($set:{name:"lord button"}})
+edit one object 
+
+mongoose.connect - connect to database
+
+mongod=server running
+mongo= active command line
+npm mongoose is a library and make a connexion and link to the server (interactive) 
+Node express server
+var dog = {string}
+json.stringfy(object)

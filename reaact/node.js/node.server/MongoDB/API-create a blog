@@ -1,0 +1,34 @@
+blog Api
+create a post and search
+schema post
+CRUD post
+id
+author
+date
+content
+title
+genre
+tags
+ get = get something
+ post = add something
+ put =
+ patch = edit something
+ delete = delete something
+
+const express
+cost app = express();
+ we do need app.get();
+ create a database with MongoDB
+ create schema with mongoose
+
+
+app.git
+ app.post
+ app.delete
+ app.put
+ app.push
+ app.patch
+ create form or query parameter choose the best
+
+ api is a bunch of routes
+ exemple : 
